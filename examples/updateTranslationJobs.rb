@@ -11,7 +11,7 @@ mygengo = MyGengo::API.new({
 })
 
 # Reject all the following jobs.
-mygengo.updateTranslationJob({
+mygengo.updateTranslationJobs({
 	:jobs => [42, 43, 44, 45],
 	:action => "reject",
 	:reason => "quality",
